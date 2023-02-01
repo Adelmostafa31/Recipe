@@ -41,7 +41,7 @@ class settingScreen extends StatelessWidget {
         Size size = MediaQuery.of(context).size;
         return Scaffold(
           body: SlidingUpPanel(
-            maxHeight: (size.height / 2.4),
+            maxHeight: (size.height / 2.1),
             minHeight: (size.height / 2.4),
             borderRadius:const BorderRadius.only(
               topLeft: Radius.circular(30),

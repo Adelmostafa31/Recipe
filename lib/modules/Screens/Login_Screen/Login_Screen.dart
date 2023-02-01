@@ -78,7 +78,7 @@ class loginScreen extends StatelessWidget {
                         ),
                       ],
                       options: CarouselOptions(
-                        height: 400.h,
+                        height: 320.h,
                         initialPage: 0,
                         enableInfiniteScroll: true,
                         reverse: false,
@@ -173,7 +173,7 @@ class loginScreen extends StatelessWidget {
                       children: [
                         Text(
                           'you don\'t have an account..?'.toUpperCase(),
-                          style: TextStyle(fontSize: 20.sp, color: defualtColor()),
+                          style: TextStyle(fontSize: 18.sp, color: defualtColor()),
                         ),
                         TextButton(
                             onPressed: () {
@@ -185,7 +185,7 @@ class loginScreen extends StatelessWidget {
                             child: Text(
                               'register'.toUpperCase(),
                               style: TextStyle(
-                                  fontSize: 25.sp, fontWeight: FontWeight.bold),
+                                  fontSize: 20.sp, fontWeight: FontWeight.bold),
                             ))
                       ],
                     ),
@@ -198,7 +198,7 @@ class loginScreen extends StatelessWidget {
                         fontWeight: FontWeight.w900),
                   ),
                   SizedBox(
-                    height: 10.h,
+                    height: 5.h,
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 25.0),
@@ -221,15 +221,18 @@ class loginScreen extends StatelessWidget {
                             ,
                           ),
                           SizedBox(
-                            width: 17.w,
+                            width: 12.w,
                           ),
                           Text(
                             'Sign In With Google Account',
                             style: TextStyle(
-                                fontSize: 25.sp,
+                                fontSize: 22.sp,
                                 fontWeight: FontWeight.w900,
                                 color: Colors.black),
-                          )
+                          ),
+                          SizedBox(
+                            height: 12.h,
+                          ),
                         ],
                       ),
                     ),

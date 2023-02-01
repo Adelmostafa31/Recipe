@@ -202,7 +202,7 @@ class registerScreen extends StatelessWidget {
                           child: Text(
                             'you have an account already..?'.toUpperCase(),
                             style: TextStyle(
-                                fontSize: 25.sp, fontWeight: FontWeight.bold),
+                                fontSize: 22.sp, fontWeight: FontWeight.bold),
                           )),
                     )
                   ],
